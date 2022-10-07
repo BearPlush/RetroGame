@@ -1,0 +1,203 @@
+* {
+    font-family: 'Arial';
+}
+
+body {
+    background-color: #23242a;
+    font-weight: 600;
+}
+
+/*
+==============================================
+                    HEADER
+==============================================
+*/
+
+.navbar navbar-expand-lg bg-dark {
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #16F5B2;
+    font-size: 1.5em;
+    background-color: #1c1c1c1c;
+}
+
+.container-fluid {
+    color: gray
+}
+
+.nav-link {
+    color: #D917FA;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.navbar>.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #F5225C;
+    font-size: 1.2em;
+}
+
+.d-inline-block img {
+    border: 8px;
+}
+
+
+/*
+==============================================
+                    TITLE
+==============================================
+*/
+
+.console-container {
+    position: relative;
+    font-family: 'Arial';
+    font-size: 4em;
+    text-align: center;
+    height: 100px;
+    width: 800px;
+    display: block;
+    color: rgba(255, 255, 255, 0.207);
+    top: 0;
+    bottom: 20%;
+    left: 5vh;
+    right: 0;
+    top: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 150px;
+}
+
+.console-underscore {
+    display: inline-block;
+    top: -0.14em;
+    left: 10px;
+}
+
+.form-control {
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: auto;
+}
+
+.box-search {
+    position: relative;
+    height: 60px;
+    top: 37vh;
+    left: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.form-search {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    justify-content: center;
+}
+
+.noScriptTitle {
+    color: #16F5B2;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+/*
+==============================================
+                    RECENT SHOP
+==============================================
+*/
+
+.box-shop {
+    top: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 52vh;
+    color: #fff;
+    background: #28292d;
+    border-radius: 8px;
+    width: 80%;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.bo-box {
+    height: 60vh;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.card {
+    height: 50vh;
+    width: 30vh;
+    background: #1c1c1c1c;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn btn-primary {
+    border: none;
+    background: #F5225C;
+    padding: 11px 25px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card text {
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+}
+
+.card-body {
+    padding: 2px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.img-top {
+    margin: 2px;
+    width: 220px;
+}
+
+input[type="submit"] {
+    border: none;
+    background: #F5225C;
+    padding: 11px 25px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,240 @@
+* {
+    font-family: 'Arial';
+}
+
+body {
+    background-color: #23242a;
+    font-weight: 600;
+}
+
+/*
+==============================================
+                    HEADER
+==============================================
+*/
+
+.navbar navbar-expand-lg bg-dark {
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #16F5B2;
+    font-size: 1.5em;
+    background-color: #1c1c1c1c;
+}
+
+.container-fluid {
+    color: gray
+}
+
+.nav-link {
+    color: #D917FA;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.navbar>.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #F5225C;
+    font-size: 1.2em;
+}
+
+.d-inline-block img {
+    border: 8px;
+}
+
+
+/*
+==============================================
+                    LOGIN
+==============================================
+*/
+
+.LOGINMASTER {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #23242a;
+}
+
+.box {
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background: #1c1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.box-register {
+    position: relative;
+    width: 380px;
+    height: 470px;
+    background: #1c1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.box-register::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, #F5225C, #D917FA);
+    transform-origin: bottom right;
+    animation: login 6s linear infinite;
+}
+
+.box-register::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, #F5225C, #D917FA);
+    transform-origin: bottom right;
+    animation: login 6s linear infinite;
+    animation-delay: -3s;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, #F5225C, #D917FA);
+    transform-origin: bottom right;
+    animation: login 6s linear infinite;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent, #F5225C, #D917FA);
+    transform-origin: bottom right;
+    animation: login 6s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes login {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: -1em 0 .4em #F5225C;
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.submit {
+    margin-top: 8px;
+}
+
+.form {
+    position: absolute;
+    inset: 2px;
+    border-radius: 8px;
+    background: #28292d;
+    z-index: 10;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    color: #D917FA;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+    bottom: 8px;
+}
+
+.field {
+    margin-top: 35px;
+}
+
+.field-close {
+    margin-top: 12px;
+}
+
+.field-close input {
+    position: relative;
+    width: 100%;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+}
+
+.field input {
+    position: relative;
+    width: 100%;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+}
+
+.form span {
+    color: #16F5B2;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    bottom: 8px;
+}
+
+.links a {
+    margin: 10px 0;
+    font-size: 0.75em;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+
+.links a:hover,
+.links a:nth-child(2) {
+    color: #16F5B2;
+}
+
+input[type="submit"] {
+    border: none;
+    background: #F5225C;
+    padding: 11px 25px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}

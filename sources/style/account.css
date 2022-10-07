@@ -1,0 +1,221 @@
+* {
+    font-family: 'Arial';
+}
+
+body {
+    background-color: #23242a;
+    font-weight: 600;
+}
+
+/*
+==============================================
+                    HEADER
+==============================================
+*/
+
+.navbar navbar-expand-lg bg-dark {
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #16F5B2;
+    font-size: 1.5em;
+    background-color: #1c1c1c1c;
+}
+
+.container-fluid {
+    color: gray
+}
+
+.nav-link {
+    color: #D917FA;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.navbar>.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #F5225C;
+    font-size: 1.2em;
+}
+
+.d-inline-block img {
+    border: 8px;
+}
+
+/*
+==============================================
+                    USER
+==============================================
+*/
+
+.box-account {
+    padding: 2px;
+    height: 120vh;
+    background: #1c1c1c;
+    color: white;
+    border-radius: 8px;
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bo-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-info {
+    top: 2vh;
+    margin: 10px;
+    top: 1vh;
+    height: 30vh;
+    width: 50vh;
+    background: #23242a;
+    flex: 1;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 1em;
+    color: white;
+    top: 5px;
+    margin: 10px;
+    text-align: center;
+}
+p {
+    font-size: 0.8em;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.submit {
+    margin-top: 8px;
+}
+
+input[type="submit"] {
+    border: none;
+    background: #F5225C;
+    padding: 2px 5px;
+    left: auto;
+    right: auto;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.form {
+    left: 50px;
+}
+
+.box-orders {
+    margin: 10px;
+    height: 30vh;
+    width: 40vh;
+    background: #23242a;
+    flex: 2;
+}
+
+.box-seller {
+    flex: 1;
+    margin: 10px;
+    height: 52vh;
+    width: 60vh;
+    background: #23242a;
+}
+
+.box-admin {
+    flex: 1;
+    margin: 10px;
+    height: 52vh;
+    width: 60vh;
+    background: #23242a;
+}
+
+.box-contact {
+    flex: 1;
+    margin: 10px;
+    height: 30vh;
+    width: 40vh;
+    background: #23242a;
+    padding: 8px;
+}
+
+
+.field input {
+    width: 95%;
+    height: 20px;
+    margin: 10px;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    margin-right: 20px;
+}
+
+.field-a input {
+    width: 95%;
+    height: 60px;
+    margin: 10px;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+}
+
+.box-additem {
+    flex: 2;
+    margin: 10px;
+    height: 45vh;
+    width: 40vh;
+    background: #1c1c1c;
+    padding: 8px;
+}
+
+.box-manageitem {
+    flex: 2;
+    margin: 10px;
+    height: 45vh;
+    width: 40vh;
+    background: #1c1c1c;
+    padding: 8px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.button-seller {
+    border: none;
+    text-align: center;
+    background: #F5225C;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 5vh;
+    left: auto;
+    right: auto;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
